@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.div-containers {
+	display: flex;
+}
+
+.left-side {
+	width: 40%;
+	height: 100vh;
+	background-color: red;
+}
+
+.right-side {
+	width: 60%;
+	height: 100vh;
+	background-color: lightblue;
+}
+
+.form-container {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 20px;
+}
