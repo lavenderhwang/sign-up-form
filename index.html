@@ -18,17 +18,35 @@
 	</head>
 	<body>
 		<div class="div-containers">
-			<div class="left-side"></div>
+			<div class="left-side">
+				<h1 class="logo">Syllabus</h1>
+				<p class="tagline">
+					<span class="teal">Customized </span>Learning,
+					<span class="teal">Exceptional</span> Results<br />Choose Online
+					Tutoring Today!
+				</p>
+			</div>
 			<div class="right-side">
-				<div class="form-container">
+				<div class="form-wrapper">
 					<h1 class="form-title">Get Started</h1>
+					<div class="form-container"></div>
 					<form action="/" GET class="form">
 						<div>
-							<label for="full-name">Full Name</label>
+							<label for="first-name">First Name</label>
 							<input
-								id="full-name"
+								id="first-name"
 								type="text"
-								name="full-name"
+								name="first-name"
+								required
+								minlength="2"
+							/>
+						</div>
+						<div>
+							<label for="last-name">Last Name</label>
+							<input
+								id="last-name"
+								type="text"
+								name="last-name"
 								required
 								minlength="2"
 							/>
@@ -59,13 +77,30 @@
 								required
 							/>
 						</div>
-						<p class="signup-agree">
+
+						<p class="full-width" class="signup-agree">
 							By signing up, you are agreeing to our
-							<span class="terms-and-cdtns">Terms & Conditions</span> and
-							<span class="privacy-policy">Privacy Policy</span>
+							<span
+								style="color: rgb(32, 80, 165); font-weight: bold"
+								class="hover"
+								>Terms & Conditions</span
+							>
+							and
+							<span
+								style="color: rgb(32, 80, 165); font-weight: bold"
+								class="hover"
+								>Privacy Policy</span
+							>
 						</p>
 						<button type="submit" class="submit-btn">Create Account</button>
-						<p>Already have an account? <span class="login">Log In</span></p>
+						<p class="full-width">
+							Already have an account?
+							<span
+								style="color: rgb(32, 80, 165); font-weight: bold"
+								class="log-in"
+								>Log In</span
+							>
+						</p>
 					</form>
 				</div>
 			</div>
