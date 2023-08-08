@@ -107,9 +107,21 @@ button:hover {
 
 /*FORM VALIDATION*/
 
-input:required:valid {
-	border-color: green;
+.input-control input:focus {
+	outline: 0;
 }
-input:invalid {
-	border-color: red;
+
+.input-control.success input {
+	border-color: #09c372;
+	background-color: #dff8ee;
+}
+.input-control.error input {
+	border-color: #ff3860;
+	background-color: rgb(253, 229, 235);
+}
+.input-control.error {
+	color: #ff3860;
+	font-size: 12px;
+
+	margin: 10px 0px;
 }
